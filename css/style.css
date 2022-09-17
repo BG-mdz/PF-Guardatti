@@ -1,0 +1,525 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+/*NAVBAR*/
+header nav{
+    background:#03071E;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+header nav a{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1em;
+}
+header nav a img{
+    width: 3em;
+}
+header nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+header nav ul li{
+    list-style-type: none;
+    text-decoration: none;
+    word-spacing: 1em;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+header nav ul li a {
+    color:#D00000;
+    text-align: center;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+nav a:hover{
+    color: antiquewhite;
+    transition: 0.7s;
+}
+/*HOME*/
+/*hero section*/
+.background-home{
+    background-color: #03071E;
+}
+.hero-section-index{
+    width: 100%;
+    text-align: center;
+}
+.hero-image-index{
+    background-image: url("../asset/imagenes/console3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 100%;
+    padding: 160px;
+}
+.hero-text-index h1{
+    color:whitesmoke;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 5em;
+    letter-spacing: 0.2em;
+}
+.animated-shadow{
+    color: #ffffff;
+    font: normal 140px Varela Round, sans-serif;
+    height: 140px;
+    left: 0;
+    letter-spacing: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+    animation: move linear 5000ms infinite;
+    z-index: 2
+}
+/*shadow animation*/
+@keyframes move {
+    0% {
+        text-shadow:
+        4px -4px 0 #da0641,
+        3px -3px 0 #da0641,
+        2px -2px 0 #da0641,
+        1px -1px 0 #da0641,
+        -4px 4px 0 #13f1fc,
+        -3px 3px 0 #13f1fc,
+        -2px 2px 0 #13f1fc,
+        -1px 1px 0 #13f1fc;
+    }
+    25% {
+        text-shadow:
+        -4px -4px 0 #13f1fc,
+        -3px -3px 0 #13f1fc,
+        -2px -2px 0 #13f1fc,
+        -1px -1px 0 #13f1fc,
+        4px 4px 0 #da0641,
+        3px 3px 0 #da0641,
+        2px 2px 0 #da0641,
+        1px 1px 0 #da0641;
+    }
+
+    50% {
+        text-shadow:
+        -4px 4px 0 #da0641,
+        -3px 3px 0 #da0641,
+        -2px 2px 0 #da0641,
+        -1px 1px 0 #da0641,
+        4px -4px 0 #13f1fc,
+        3px -3px 0 #13f1fc,
+        2px -2px 0 #13f1fc,
+        1px -1px 0 #13f1fc;
+    }
+
+    75% {
+        text-shadow:
+            4px 4px 0 #13f1fc,
+            3px 3px 0 #13f1fc,
+            2px 2px 0 #13f1fc,
+            1px 1px 0 #13f1fc,
+            -4px -4px 0 #da0641,
+            -3px -3px 0 #da0641,
+            -2px -2px 0 #da0641,
+            -1px -1px 0 #da0641;
+    }
+
+    100% {
+        text-shadow:
+            4px -4px 0 #da0641,
+            3px -3px 0 #da0641,
+            2px -2px 0 #da0641,
+            1px -1px 0 #da0641,
+            -4px 4px 0 #13f1fc,
+            -3px 3px 0 #13f1fc,
+            -2px 2px 0 #13f1fc,
+            -1px 1px 0 #13f1fc;
+    }
+}
+/*main*/
+.wrap{
+    width: 100%;
+	max-width: 1200px;
+	margin:auto;
+    }
+
+.col-container{
+    padding-bottom: 30px;
+    position: relative;
+    top: -70px;
+}
+
+.col-container img{
+    border-radius: 50%;
+    margin-right:6%;
+    margin-left: 8%;
+}
+/*text intro*/
+.intro-container{
+    background: #03071E;
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 30px;
+}
+
+/*ABOUT*/
+.festival{
+    color: whitesmoke;
+    background-image: url("../asset/imagenes/guitar2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 100%;
+    padding: 120px;
+}
+.festival h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    padding-bottom: 190px;
+}
+.info-festival p{
+    width: 60%;
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 40% 10% / 20% 50%;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    /*border: 1px solid rgba(255, 255, 255, 0.3);*/
+    font-size: 1.3em;
+    padding: 15px;
+    text-align: center;
+    text-indent: 20px;
+    /*-webkit-text-fill-color: whitesmoke;
+    -webkit-text-stroke: 0.8px #6A040F;
+    text-shadow: -1px -1px 1px #6A040F, 1px 1px 1px #6A040F, -1px 1px 1px #6A040F, 1px -1px 1px #6A040F;*/
+}
+.slideshow-carusel{
+    background-color: #D00000;
+}
+
+/*GALLERY*/
+/*video*/
+.hero-video{
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+}
+.iframe-responsive{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+/*band-cards*/
+.band-gallery{
+    background-color: #03071E;
+    color:antiquewhite;
+    padding-top: 20px;
+}
+.main-bands-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 0px 0px;
+    justify-items: center;
+    grid-template-areas: 
+        ;
+}
+
+.band-gallery h3{
+    font-family: 'Splash', cursive;/*'Roboto', sans-serif;*/;
+    font-size: 2em;
+    font-weight: 300;
+    display:grid;
+}
+
+.band-gallery p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+}
+
+/*TICKETS*/
+/*cards*/
+.tickets-background{
+    background-image: url("../asset/imagenes/tickets.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 100%;
+}
+.tickets-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+    align-items: center;
+    height: auto;
+    margin: 6%;
+}
+.ticket-card{
+    background-color: #6A040F;
+    color: antiquewhite;
+    width: 20%;
+    border-radius: 20px;
+    box-shadow: -12px 14px 17px -3px rgba(194,173,173,0.75) inset;
+-webkit-box-shadow: -12px 14px 17px -3px rgba(194,173,173,0.75) inset;
+-moz-box-shadow: -12px 14px 17px -3px rgba(194,173,173,0.75) inset;
+}
+.card-header{
+    text-align: center;
+    padding: 50px 10px;
+}
+.card-body{
+    padding:30px 20px;
+    text-align: center;
+    font-size: 0.938em;
+}
+.ticket-btn{
+    display: block;
+    text-align: center;
+    color: #03071E;
+    background-color: #F48C06;
+    border: 1px solid #F48C06;
+    border-radius: 20px;
+    margin: 30px 35px;
+    padding: 10px 5px;
+    text-transform: uppercase;
+}
+
+.ticket-card .ticket-btn a{
+    text-decoration: none;
+    font-weight: 700;
+    color: #03071E;
+}
+
+.ticket-card a:hover{
+    color: antiquewhite;
+    transition: 0.7s;
+}
+
+/*CONTACT*/
+.contact-background{
+    background-image: url("../asset/imagenes/contact.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 100%;
+}
+.contact-form article h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 3em;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.container-contact-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin: 3%;
+    /*position: center;
+	width: 50%;
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+    padding: 5%;*/
+	/* From https://css.glass */
+    background: rgba(255, 255, 255, 0.25);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.4px);
+    -webkit-backdrop-filter: blur(7.4px);
+    border: 1px solid rgba(255, 255, 255, 0.27);
+}
+.container-contact-form h2{
+    color: #6A040F;
+    font-size: 2em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    text-align: center;
+}
+.container-contact-form .form{
+    font-size: 1.5em;
+}
+.submit-btn{
+    background-color: #6A040F;
+    border: #6A040F;
+    padding:0.5% 1.5%;
+    color: antiquewhite;
+    border-radius: 10px;
+    margin-left: 40%;
+    margin-bottom: 10%;
+    margin-top: 5%;
+    cursor: pointer;
+}
+
+.submit-btn:hover{
+    background: #03071E;
+    transition: 0.7s;
+}
+footer{
+    background: #6A040F;
+    padding: 1em 0;
+    text-align: center;
+    margin-top: auto;
+}
+
+footer a svg{
+    color: #03071E;
+}
+
+.copyright {
+    color: #03071E;
+}
+
+/*RESPONSIVE*/
+/*GALLERY*/
+/*Desktop first*/
+/*@media screen and (max-width: 1200px){
+    .main-bands-container{
+        grid-template-columns: repeat(4,1fr);
+        grid-gap:1.5em;
+        margin: 5%;
+    }
+    .card-img-1{
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+    .card-img-2{
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+    .card-img-3{
+        grid-column: 3/4;
+        grid-row: 1/2;
+    }
+    .card-img-4{
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+    .card-img-5{
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+    .card-img-6{
+        grid-column: 3/4;
+        grid-row: 2/3;
+    }
+    .card-img-7{
+        grid-column: 4/5;
+        grid-row: 1/3;
+    }
+}
+/*Tablet*/
+/*@media screen and (max-width: 1024px){
+    .main-bands-container{
+        grid-template-columns: repeat(3,1fr);
+        grid-gap:1em;
+    }
+    .card-img-1{
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+    .card-img-2{
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+    .card-img-3{
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+    .card-img-4{
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+    .card-img-5{
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+    .card-img-6{
+        grid-column: 2/3;
+        grid-row: 3/4;
+    }
+    .card-img-7{
+        grid-column: 3/4;
+        grid-row: 1/4;
+    }
+}
+/*Mobile*/
+/*@media screen and (max-width: 768px){
+    .main-bands-container{
+        grid-template-columns: 1fr;
+        grid-gap:1em;
+    }
+    .card-img-1{
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+    .card-img-2{
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+    .card-img-3{
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+    .card-img-4{
+        grid-column: 1/2;
+        grid-row: 4/5;
+    }
+    .card-img-5{
+        grid-column: 1/2;
+        grid-row: 5/6;
+    }
+    .card-img-6{
+        grid-column: 1/2;
+        grid-row: 6/7;
+    }
+    .card-img-7{
+        grid-column: 1/2;
+        grid-row: 7/8;
+    }
+}
+
+/*TICKETS*/
+@media screen and (max-width: 1200px){
+    .ticket-card{
+        width: 40%;
+    }
+}
+@media screen and (max-width: 620px){
+    .tickets-container{
+        width: 100%;
+    }
+    .card-header{
+        padding: 20px;
+        font-size: 20px;
+    }
+    .ticket-card{
+        width: 80%;
+
+    }
+}
