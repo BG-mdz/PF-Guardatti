@@ -235,23 +235,54 @@ nav a:hover{
     padding-top: 20px;
 }
 .main-bands-container{
+    padding: 4em;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(4,1fr);
     grid-template-rows: repeat(2, 1fr);
-    gap: 0px 0px;
-    justify-items: center;
-    grid-template-areas: 
-        ;
+    grid-gap: 7px;
+    width: 100%;
+    height: 100%;
+    justify-items: stretch;
+    align-items: stretch;
+    grid-template-areas:
+        'card-img-1 card-img-2 card-img-3 card-img-7'
+        'card-img-4 card-img-5 card-img-6 card-img-7';
+}
+.main-bands-container div img{
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+}
+.card-img-1{
+    grid-area: card-img-1;
+}
+.card-img-2{
+    grid-area: card-img-2;
+}
+.card-img-3{
+    grid-area: card-img-3;
+}
+.card-img-4{
+    grid-area: card-img-4;
+}
+.card-img-5{
+    grid-area: card-img-5;
+}
+.card-img-6{
+    grid-area: card-img-6;
+}
+.card-img-7{
+    grid-area: card-img-7;
 }
 
-.band-gallery h3{
+/*.band-gallery h3{
     font-family: 'Splash', cursive;/*'Roboto', sans-serif;*/;
-    font-size: 2em;
+    /*font-size: 2em;
     font-weight: 300;
     display:grid;
-}
+}*/
 
-.band-gallery p{
+/*.band-gallery p{
     font-family: 'Roboto', sans-serif;
     font-size: 1em;
 }
@@ -280,9 +311,6 @@ nav a:hover{
     color: antiquewhite;
     width: 20%;
     border-radius: 20px;
-    box-shadow: -12px 14px 17px -3px rgba(194,173,173,0.75) inset;
--webkit-box-shadow: -12px 14px 17px -3px rgba(194,173,173,0.75) inset;
--moz-box-shadow: -12px 14px 17px -3px rgba(194,173,173,0.75) inset;
 }
 .card-header{
     text-align: center;
