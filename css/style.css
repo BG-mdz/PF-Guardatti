@@ -249,7 +249,6 @@ nav a:hover{
         'card-img-4 card-img-5 card-img-6 card-img-7';
 }
 .main-bands-container div img{
-    border: solid 3px white;
     border-radius: 15px;
     width: 100%;
     height: 100%;
@@ -413,12 +412,12 @@ footer a svg{
         grid-template-rows: repeat(8,1fr);
         /*grid-gap:1em;*/
         justify-items: stretch;
-        align-items: stretchgit;
+        align-items: center;
     }
     .main-bands-container div img{
         border-radius: 15px;
-        width: 100%;
-        height: 100%;
+        width: 80%;
+        height: 80%;
     }
     .card-img-1{
         grid-column: 1/2;
@@ -451,10 +450,18 @@ footer a svg{
 }
 
 /*Tablet*/
-/*@media screen and (max-width: 1024px){
+@media screen and (min-width:769px) and (max-width: 1024px){
     .main-bands-container{
         grid-template-columns: repeat(3,1fr);
         grid-gap:1em;
+        justify-items: stretch;
+        align-items: stretch;
+    }
+    .main-bands-container div img{
+        border-radius: 15px;
+        width: 100%;
+        height: 100%;
+
     }
     .card-img-1{
         grid-column: 1/2;
@@ -485,12 +492,10 @@ footer a svg{
         grid-row: 1/4;
     }
 }
-/*Desktop first*/
-/*@media screen and (max-width: 1200px){
+/*Desktop*/
+@media screen and (min-width: 1025px) and (max-width: 1200px){
     .main-bands-container{
         grid-template-columns: repeat(4,1fr);
-        grid-gap:1.5em;
-        margin: 5%;
     }
     .card-img-1{
         grid-column: 1/2;
