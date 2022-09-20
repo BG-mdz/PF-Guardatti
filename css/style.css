@@ -249,6 +249,7 @@ nav a:hover{
         'card-img-4 card-img-5 card-img-6 card-img-7';
 }
 .main-bands-container div img{
+    border: solid 3px white;
     border-radius: 15px;
     width: 100%;
     height: 100%;
