@@ -22,16 +22,33 @@
 </head>
 <body class="background-home">
     <header>
-        <nav>
-            <a href="index.html">
-                <img src="./asset/imagenes/favicon.ico" alt="logo-rock-in-rio"></a>
-                    <ul class="navbar">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="./pages/about.html">About</a></li>
-                        <li><a href="./pages/gallery.html">Gallery</a></li>
-                        <li><a href="./pages/tickets.html">Tickets</a></li>
-                        <li><a href="./pages/contact.html">Contact</a></li>
+            <nav class="navbar navbar-expand-md">
+                <div class="container-fluid">
+                    <a href="../index.html" class="navbar-brand"><img src="../asset/imagenes/favicon.ico" alt="logo-rock-in-rio" class="logoimg"></a>
+                    <!--no funciona el color del boton colapsable y no se ve-->
+                    <button class="navbar-toggler bg-danger" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active selected" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/gallery.html">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/tickets.html">Tickets</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/contact.html">Contact</a>
+                        </li>
                     </ul>
+                </div>
+            </div>
             </nav>
     </header>
     <main>
@@ -61,6 +78,18 @@
             <a href="./pages/gallery.html"><button type="button" class="btn btn-danger">Bands</button></a>
         </div>
         </article>
+    </section>
+    <!--SECTION MORE INFO-->
+    <section class="container-index">
+        <div class="row-index">
+            <div class="col">col1
+                <picture></picture>
+            </div>
+            <div class="col">Get to know about pricing <button class="btn btn-danger">Learn more</button></div>
+            <div class="col">col3</div>
+            <picture></picture>
+            <div class="col">Looking for the latest news?Join our newsletter <button class="btn btn-danger">I'm in!</button></div>
+        </div>
     </section>
         </main>
     <footer id="socialNetworking">

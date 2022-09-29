@@ -22,19 +22,34 @@
 </head>
 <body>
     <header>
-        <div class="container-logo">
-            <nav>
-                <a href="../index.html" class="logo">
-                    <img src="../asset/imagenes/favicon.ico" alt="logo-rock-in-rio" class="logoimg"></a>
-                    <ul class="navbar">
-                        <li><a href="../index.html">Home</a></li>
-                        <li><a href="./about.html">About</a></li>
-                        <li><a href="#">Gallery</a></li>
-                        <li><a href="./tickets.html">Tickets</a></li>
-                        <li><a href="./contact.html">Contact</a></li>
-                    </ul>
-            </nav>
+        <nav class="navbar navbar-expand-md">
+            <div class="container-fluid">
+                <a href="../index.html" class="navbar-brand"><img src="../asset/imagenes/favicon.ico" alt="logo-rock-in-rio" class="logoimg"></a>
+                <!--no funciona el color del boton colapsable y no se ve-->
+                <button class="navbar-toggler bg-danger" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active selected" aria-current="page" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./tickets.html">Tickets</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
         </div>
+        </nav>
     </header>
     <main>
     <section class="hero-video-section">

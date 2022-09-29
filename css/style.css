@@ -16,43 +16,27 @@ header nav{
     flex-direction: row;
     justify-content: space-between;
 }
-header nav a{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    padding: 1em;
-}
-header nav a img{
-    width: 4em;
-}
-header nav ul{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+.navbar a img{
+    width: 3em;
 }
 .navbar li{
     list-style-type: none;
-    text-decoration: none;
     word-spacing: 1em;
     letter-spacing: 0.1em;
     text-transform: uppercase;
     font-size: 1.2em;
     font-weight: bold;
 }
-.navbar li a{
+.navbar a{
     text-decoration: none;
     color:#D00000;
     text-align: center;
-    text-decoration: none;
-    list-style-type: none;
 }
-
-nav a:hover{
+.navbar a:hover{
     color: antiquewhite;
     transition: 0.7s;
 }
+
 /*HOME*/
 /*hero section*/
 .background-home{
@@ -207,12 +191,10 @@ nav a:hover{
     padding: 15px;
     text-align: center;
     text-indent: 20px;
-    /*-webkit-text-fill-color: whitesmoke;
-    -webkit-text-stroke: 0.8px #6A040F;
-    text-shadow: -1px -1px 1px #6A040F, 1px 1px 1px #6A040F, -1px 1px 1px #6A040F, 1px -1px 1px #6A040F;*/
 }
-.slideshow-carusel{
-    background-color: #D00000;
+.carousel-section{
+    background-color: #03071E;
+    height: 100%;
 }
 
 /*GALLERY*/
