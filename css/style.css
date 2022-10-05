@@ -186,15 +186,10 @@ header nav{
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
-    /*border: 1px solid rgba(255, 255, 255, 0.3);*/
     font-size: 1.3em;
     padding: 15px;
     text-align: center;
     text-indent: 20px;
-}
-.carousel-section{
-    background-color: #03071E;
-    height: 100%;
 }
 
 /*GALLERY*/
@@ -225,7 +220,6 @@ header nav{
     grid-template-rows: repeat(2, 1fr);
     grid-gap: 7px;
     width: 100%;
-    /*height: 100%;*/
     justify-items: stretch;
     align-items: stretch;
     grid-template-areas:
@@ -268,52 +262,27 @@ header nav{
     position: relative;
     height: 100%;
 }
-.tickets-container{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-flow: wrap;
-    align-items: center;
-    height: auto;
-    margin: 6%;
-}
-.ticket-card{
-    background-color: #6A040F;
-    color: antiquewhite;
-    width: 20%;
-    border-radius: 20px;
-}
-.card-header{
-    text-align: center;
-    padding: 50px 10px;
+.card{
+    border-color: #6A040F;
+    height: 30em;
 }
 .card-body{
-    padding:30px 20px;
-    text-align: center;
-    font-size: 1.2em;
-}
-.ticket-btn{
-    display: block;
-    text-align: center;
-    color: #03071E;
-    background-color: #F48C06;
-    border: 1px solid #F48C06;
-    border-radius: 20px;
-    margin: 30px 35px;
-    padding: 10px 5px;
-    text-transform: uppercase;
-}
-
-.ticket-card .ticket-btn a{
-    text-decoration: none;
-    font-weight: 700;
-    color: #03071E;
-    font-size: 1.3em;
-}
-
-.ticket-card a:hover{
+    background: rgb(106,4,15);
+    background: -moz-linear-gradient(279deg, rgba(106,4,15,1) 24%, rgba(55,6,23,0.9976365546218487) 100%);
+    background: -webkit-linear-gradient(279deg, rgba(106,4,15,1) 24%, rgba(55,6,23,0.9976365546218487) 100%);
+    background: linear-gradient(279deg, rgba(106,4,15,1) 24%, rgba(55,6,23,0.9976365546218487) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#6a040f",endColorstr="#370617",GradientType=1);;
     color: antiquewhite;
-    transition: 0.7s;
+    padding:40px 30px;
+    text-align: center;
+    font-size: 1.5em;
+}
+.card-title{
+    font-size: 1.8em;
+}
+.price{
+    font-size:1.3em;
+    font-weight: 550;
 }
 
 /*CONTACT*/
@@ -402,6 +371,14 @@ footer a svg{
 @media only screen and (max-width: 1024px){
     .col-container{
     display: none;
+    }
+}
+/*ABOUT*/
+/*Mobile*/
+@media only screen and (max-width: 768px){
+    .info-festival p{
+        display: flex;
+        flex-wrap: wrap;
     }
 }
 /*GALLERY*/
