@@ -1,6 +1,7 @@
 @import "./_base/reset";
 @import "./_base/typo";
 @import "./layout/animations";
+@import "./components/button";
 @import "./layout/body";
 @import "./layout/header";
 @import "./layout/hero-section-index";
@@ -8,3 +9,5 @@
 @import "./layout/about";
 @import "./layout/gallery-video";
 @import "./layout/gallery-grids-concert";
+@import "./layout/tickets";
+@import "./layout/contact";

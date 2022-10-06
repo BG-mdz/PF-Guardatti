@@ -1,0 +1,30 @@
+.tickets-background{
+    background-image: url("../asset/imagenes/tickets.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 100%;
+}
+.card{
+    border-color: #6A040F;
+    height: 30em;
+}
+.card-body{
+    background: rgb(106,4,15);
+    background: -moz-linear-gradient(279deg, rgba(106,4,15,1) 24%, rgba(55,6,23,0.9976365546218487) 100%);
+    background: -webkit-linear-gradient(279deg, rgba(106,4,15,1) 24%, rgba(55,6,23,0.9976365546218487) 100%);
+    background: linear-gradient(279deg, rgba(106,4,15,1) 24%, rgba(55,6,23,0.9976365546218487) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#6a040f",endColorstr="#370617",GradientType=1);;
+    color: antiquewhite;
+    padding:40px 30px;
+    text-align: center;
+    font-size: 1.5em;
+}
+.card-title{
+    font-size: 1.8em;
+}
+.price{
+    font-size:1.3em;
+    font-weight: 550;
+}

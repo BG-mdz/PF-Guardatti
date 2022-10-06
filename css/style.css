@@ -68,9 +68,24 @@
  -2px 2px 0 #f48c06,
  -1px 1px 0 #f48c06; } }
 
+/*contact form button*/
+.submit-btn {
+  background-color: #6A040F;
+  border: #6A040F;
+  padding: 0.5% 1.5%;
+  color: antiquewhite;
+  border-radius: 10px;
+  margin-left: 40%;
+  margin-bottom: 10%;
+  margin-top: 5%;
+  cursor: pointer; }
+  .submit-btn:hover {
+    background: #03071E;
+    transition: 0.7s; }
+
 body {
   overflow-x: hidden; }
-/*NAVBAR*/
+
 header nav {
   background: #03071E;
   display: flex;
@@ -96,7 +111,7 @@ header nav {
 .navbar a:hover {
   color: antiquewhite;
   transition: 0.7s; }
-/*HOME*/
+
 .background-home {
   background-color: #03071E; }
 
@@ -141,7 +156,6 @@ header nav {
   padding-top: 30px;
   margin-bottom: 3%; }
 
-  /*ABOUT*/
 .background-main {
   background-color: #03071E; }
 
@@ -172,7 +186,6 @@ header nav {
   text-indent: 20px;
   width: 60%; }
 
-  /*GALLERY*/
 .hero-video {
   position: relative;
   overflow: hidden;
@@ -227,3 +240,71 @@ header nav {
 
 .card-img-7 {
   grid-area: card-img-7; }
+
+.tickets-background {
+  background-image: url("../asset/imagenes/tickets.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 100%; }
+
+.card {
+  border-color: #6A040F;
+  height: 30em; }
+
+.card-body {
+  background: #6a040f;
+  background: -moz-linear-gradient(279deg, #6a040f 24%, rgba(55, 6, 23, 0.997637) 100%);
+  background: -webkit-linear-gradient(279deg, #6a040f 24%, rgba(55, 6, 23, 0.997637) 100%);
+  background: linear-gradient(279deg, #6a040f 24%, rgba(55, 6, 23, 0.997637) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#6a040f",endColorstr="#370617",GradientType=1);
+  color: antiquewhite;
+  padding: 40px 30px;
+  text-align: center;
+  font-size: 1.5em; }
+
+.card-title {
+  font-size: 1.8em; }
+
+.price {
+  font-size: 1.3em;
+  font-weight: 550; }
+
+.contact-background {
+  background-image: url("../asset/imagenes/contact.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 100%; }
+
+.contact-form article h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 3em;
+  font-weight: 400;
+  text-align: center;
+  padding-top: 5%; }
+
+.container-contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  margin: 3%;
+  background: rgba(255, 255, 255, 0.25);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(7.4px);
+  -webkit-backdrop-filter: blur(7.4px);
+  border: 1px solid rgba(255, 255, 255, 0.27); }
+  .container-contact-form h2 {
+    color: #6A040F;
+    font-size: 2em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    text-align: center; }
+
+.container-contact-form .form {
+  font-size: 1.5em; }
