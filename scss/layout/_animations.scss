@@ -1,0 +1,74 @@
+/*HOME*/
+.animated-shadow{
+    color: #ffffff;
+    font: normal 140px Varela Round, sans-serif;
+    height: 140px;
+    left: 0;
+    letter-spacing: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+    animation: move linear 5000ms infinite;
+    z-index: 2
+}
+/*shadow animation*/
+@keyframes move {
+    0% {
+        text-shadow:
+        4px -4px 0 #9d0208,
+        3px -3px 0 #9d0208,
+        2px -2px 0 #9d0208,
+        1px -1px 0 #9d0208,
+        -4px 4px 0 #f48c06,
+        -3px 3px 0 #f48c06,
+        -2px 2px 0 #f48c06,
+        -1px 1px 0 #f48c06;
+    }
+    25% {
+        text-shadow:
+        -4px -4px 0 #f48c06,
+        -3px -3px 0 #f48c06,
+        -2px -2px 0 #f48c06,
+        -1px -1px 0 #f48c06,
+        4px 4px 0 #9d0208,
+        3px 3px 0 #9d0208,
+        2px 2px 0 #9d0208,
+        1px 1px 0 #9d0208;
+    }
+
+    50% {
+        text-shadow:
+        -4px 4px 0 #9d0208,
+        -3px 3px 0 #9d0208,
+        -2px 2px 0 #9d0208,
+        -1px 1px 0 #9d0208,
+        4px -4px 0 #f48c06,
+        3px -3px 0 #f48c06,
+        2px -2px 0 #f48c06,
+        1px -1px 0 #f48c06;
+    }
+
+    75% {
+        text-shadow:
+            4px 4px 0 #f48c06,
+            3px 3px 0 #f48c06,
+            2px 2px 0 #f48c06,
+            1px 1px 0 #f48c06,
+            -4px -4px 0 #9d0208,
+            -3px -3px 0 #9d0208,
+            -2px -2px 0 #9d0208,
+            -1px -1px 0 #9d0208;
+    }
+
+    100% {
+        text-shadow:
+            4px -4px 0 #9d0208,
+            3px -3px 0 #9d0208,
+            2px -2px 0 #9d0208,
+            1px -1px 0 #9d0208,
+            -4px 4px 0 #f48c06,
+            -3px 3px 0 #f48c06,
+            -2px 2px 0 #f48c06,
+            -1px 1px 0 #f48c06;
+    }
+}

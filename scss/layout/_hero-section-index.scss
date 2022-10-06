@@ -1,0 +1,25 @@
+.background-home{
+    background-color: #03071E;
+}
+.hero-section-index{
+    width: 100%;
+    text-align: center;
+}
+.hero-image-index{
+    background-image: url("../asset/imagenes/console3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 100%;
+    padding: 160px;
+}
+.hero-text-index{
+    h1{
+        color:whitesmoke;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 900;
+        font-size: 5em;
+        letter-spacing: 0.2em;
+    }
+}

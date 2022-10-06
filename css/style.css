@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&family=Splash&display=swap");
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+  /*font-family: 'Roboto', sans-serif;*/
+    box-sizing: border-box; }
+
+body {
+    overflow-x: hidden; }
+
+header nav {
+    background: #03071E;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+
+.navbar a img {
+    width: 3em; }
+
+.navbar li {
+    list-style-type: none;
+    word-spacing: 1em;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    font-weight: bold; }
+
+.navbar a {
+    text-decoration: none;
+    color: #D00000;
+    text-align: center; }
+
+.navbar a:hover {
+    color: antiquewhite;
+    transition: 0.7s; }
+
+.background-home {
+    background-color: #03071E; }
+
+.hero-section-index {
+    width: 100%;
+    text-align: center; }
+
+.hero-image-index {
+    background-image: url("../asset/imagenes/console3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 100%;
+    padding: 160px; }
+
+.hero-text-index h1 {
+    color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 5em;
+    letter-spacing: 0.2em; }
+
+.wrap {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto; }
+
+.col-container {
+    padding-bottom: 30px;
+    position: relative;
+    top: -70px; }
+.col-container img {
+    border-radius: 50%;
+    margin-right: 6%;
+    margin-left: 8%; }
+
+.intro-container {
+    background: #03071E;
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 3%; }
+
+/*HOME*/
+.animated-shadow {
+    color: #ffffff;
+    font: normal 140px Varela Round, sans-serif;
+    height: 140px;
+    left: 0;
+    letter-spacing: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+    animation: move linear 5000ms infinite;
+    z-index: 2; }
+
+/*shadow animation*/
+@keyframes move {
+    0% {
+    text-shadow:
+        4px -4px 0 #9d0208,
+        3px -3px 0 #9d0208,
+        2px -2px 0 #9d0208,
+        1px -1px 0 #9d0208,
+        -4px 4px 0 #f48c06,
+        -3px 3px 0 #f48c06,
+        -2px 2px 0 #f48c06,
+        -1px 1px 0 #f48c06; }
+    25% {
+    text-shadow:
+        -4px -4px 0 #f48c06,
+        -3px -3px 0 #f48c06,
+        -2px -2px 0 #f48c06,
+        -1px -1px 0 #f48c06,
+        4px 4px 0 #9d0208,
+        3px 3px 0 #9d0208,
+        2px 2px 0 #9d0208,
+        1px 1px 0 #9d0208; }
+    50% {
+    text-shadow:
+        -4px 4px 0 #9d0208,
+        -3px 3px 0 #9d0208,
+        -2px 2px 0 #9d0208,
+        -1px 1px 0 #9d0208,
+        4px -4px 0 #f48c06,
+        3px -3px 0 #f48c06,
+        2px -2px 0 #f48c06,
+        1px -1px 0 #f48c06; }
+    75% {
+    text-shadow:
+        4px 4px 0 #f48c06,
+        3px 3px 0 #f48c06,
+        2px 2px 0 #f48c06,
+        1px 1px 0 #f48c06,
+        -4px -4px 0 #9d0208,
+        -3px -3px 0 #9d0208,
+        -2px -2px 0 #9d0208,
+        -1px -1px 0 #9d0208; }
+    100% {
+    text-shadow:
+        4px -4px 0 #9d0208,
+        3px -3px 0 #9d0208,
+        2px -2px 0 #9d0208,
+        1px -1px 0 #9d0208,
+        -4px 4px 0 #f48c06,
+        -3px 3px 0 #f48c06,
+        -2px 2px 0 #f48c06,
+        -1px 1px 0 #f48c06; }
+    }
