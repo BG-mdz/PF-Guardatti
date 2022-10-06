@@ -1,0 +1,44 @@
+.band-gallery{
+    background-color: #03071E;
+    color:antiquewhite;
+    padding-top: 20px;
+}
+.main-bands-container{
+    padding: 4em;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 7px;
+    width: 100%;
+    justify-items: stretch;
+    align-items: stretch;
+    grid-template-areas:
+        'card-img-1 card-img-2 card-img-3 card-img-7'
+        'card-img-4 card-img-5 card-img-6 card-img-7';
+    div img {
+        border-radius: 15px;
+        width: 100%;
+        height: 100%;
+    }
+}
+.card-img-1{
+    grid-area: card-img-1;
+}
+.card-img-2{
+    grid-area: card-img-2;
+}
+.card-img-3{
+    grid-area: card-img-3;
+}
+.card-img-4{
+    grid-area: card-img-4;
+}
+.card-img-5{
+    grid-area: card-img-5;
+}
+.card-img-6{
+    grid-area: card-img-6;
+}
+.card-img-7{
+    grid-area: card-img-7;
+}
