@@ -310,6 +310,7 @@ header nav {
 .card {
   border-color: #6A040F;
   height: 30em;
+  margin: 20% 15%;
 }
 
 .card-body {
