@@ -1,5 +1,5 @@
 .background-main{
-    background-color: #03071E;
+    background-color:$main-background;
 }
 .festival{
     color: whitesmoke;
@@ -11,8 +11,7 @@
     height: 100%;
     padding: 120px;
     h1{
-        font-family: 'Roboto', sans-serif;
-        font-weight: 900;
+        @include font-weight("Roboto"sans-serif,900);
         padding-bottom: 190px;
     }
 }

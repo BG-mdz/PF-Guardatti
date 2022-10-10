@@ -6,7 +6,7 @@
 .main-bands-container{
     padding: 4em;
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns:repeat(4,1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-gap: 7px;
     width: 100%;

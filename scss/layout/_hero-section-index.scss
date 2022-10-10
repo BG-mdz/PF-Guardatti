@@ -1,5 +1,5 @@
 .background-home{
-    background-color: #03071E;
+    background-color:$main-background;
 }
 .hero-section-index{
     width: 100%;
@@ -16,9 +16,8 @@
 }
 .hero-text-index{
     h1{
-        color:whitesmoke;
-        font-family: 'Roboto', sans-serif;
-        font-weight: 900;
+        color:$lettering-color;
+        @include font-weight ("Roboto"sans-serif,900);
         font-size: 5em;
         letter-spacing: 0.2em;
     }

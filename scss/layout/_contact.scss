@@ -10,9 +10,8 @@
 .contact-form {
     article {
         h1{
-        font-family: 'Roboto', sans-serif;
         font-size: 3em;
-        font-weight: 400;
+        @include font-weight ('Roboto'sans-serif,500);
         text-align: center;
         padding-top: 5%;
     }
@@ -36,8 +35,7 @@
         h2{
             color: #6A040F;
             font-size: 2em;
-            font-family: 'Roboto', sans-serif;
-            font-weight: 500;
+            @include font-weight ('Roboto'sans-serif, 500);
             text-align: center;
         }
 }

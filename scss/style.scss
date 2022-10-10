@@ -1,8 +1,8 @@
-@import "./utilities/variables";
 @import "./_base/reset";
 @import "./_base/typo";
-@import "./layout/animations";
-@import "./components/button";
+@import "./utilities/variables";
+@import "./utilities/mixins";
+@import "./utilities/extend";
 @import "./layout/body";
 @import "./layout/header";
 @import "./layout/hero-section-index";
@@ -13,6 +13,8 @@
 @import "./layout/tickets";
 @import "./layout/contact";
 @import "./layout/footer";
+@import "./layout/animations";
+@import "./components/button";
 @import "./layout/media-queries-home";
 @import "./layout/media-queries-about";
 @import "./layout/media-queries-gallery";
