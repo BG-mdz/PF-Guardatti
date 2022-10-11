@@ -5,17 +5,15 @@
 }
 .main-bands-container{
     padding: 4em;
-    display: grid;
-    grid-template-columns:repeat(4,1fr);
-    grid-template-rows: repeat(2, 1fr);
-    grid-gap: 7px;
-    width: 100%;
+
+    @include grid (4,2,7px,100%);
     justify-items: stretch;
     align-items: stretch;
     grid-template-areas:
         'card-img-1 card-img-2 card-img-3 card-img-7'
         'card-img-4 card-img-5 card-img-6 card-img-7';
-    div img {
+    div {
+        img {
         border-radius: 15px;
         width: 100%;
         height: 100%;
@@ -41,4 +39,5 @@
 }
 .card-img-7{
     grid-area: card-img-7;
+}
 }
