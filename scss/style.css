@@ -359,6 +359,22 @@ a:hover {
   transition: 0.7s;
 }
 
+.tickets-btn {
+  background-color: #F48C06;
+  border: #F48C06;
+  padding: 0.5% 1.5%;
+  color: #03071E;
+  border-radius: 10px;
+  margin-left: 40%;
+  margin-bottom: 10%;
+  margin-top: 5%;
+  cursor: pointer;
+}
+.tickets-btn:hover {
+  background: #03071E;
+  transition: 0.7s;
+}
+
 /*Mobile*/
 @media only screen and (max-width: 768px) {
   .col-container {

@@ -1,6 +1,6 @@
 /*contact form button*/
 .submit-btn{
-    background-color: #6A040F;
+    background-color: $secondary-background;
     border: #6A040F;
     padding:0.5% 1.5%;
     color: antiquewhite;
@@ -11,6 +11,21 @@
     cursor: pointer;
     &:hover{
         background: #03071E;
+        transition: 0.7s;
+    }
+}
+
+.tickets-btn{
+    background-color: $orange-is-the-new-black;
+    border:$orange-is-the-new-black;
+    padding:2% 4%;
+    color: $main-background;
+    font-weight: 500;
+    border-radius: 10px;
+    margin-top: 15%;
+    cursor: pointer;
+    &:hover{
+        background: $lettering-color;
         transition: 0.7s;
     }
 }
