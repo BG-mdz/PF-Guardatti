@@ -12,9 +12,14 @@
     padding: 120px;
     h1{
         @include font-weight("Roboto"sans-serif,900);
-        padding-bottom: 190px;
+        margin-bottom: 190px;
+        background: rgba(255, 255, 255, 0.2);
+        border-radius: 40% 10% / 20% 50%;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5px);
+        width: 30%;
     }
-}
+
 .info-festival {
     p{
     /* From https://css.glass */
@@ -27,6 +32,10 @@
     padding: 15px;
     text-align: center;
     text-indent: 20px;
-    width: 60%;
+    width: 40%;
     }
+}
+}
+#carouselIndex{
+    padding: 45px 55px;
 }
